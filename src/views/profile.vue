@@ -4,7 +4,7 @@
       <img
         src="https://i.pravatar.cc/150?img=3"
         alt="Profile"
-        class="avatar"
+        class="avatar"  
       />
       <h2 class="name">Rizky Maulana Ali</h2>
       <p class="role">Admin</p>

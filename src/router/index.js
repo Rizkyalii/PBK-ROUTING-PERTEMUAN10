@@ -7,7 +7,7 @@ import staff from '../views/staff.vue'
 const routes = [
     {path: '/', component:admin},
     {path: '/about', component:about},
-    {path: '/ListBarang', component:profile},
+    {path: '/profile', component:profile},
     {path: '/staff', component:staff},
 
 ]

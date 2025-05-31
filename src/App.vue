@@ -4,9 +4,10 @@
     <router-link to="/about" class="nav-link">About Company</router-link>
     <router-link to="/staff" class="nav-link">Manajemen</router-link>
     <div class="profile">
-      <router-link to="/ListBarang">
+      <router-link to="/profile">
         <div class="profile-header">
           <img src="https://i.pravatar.cc/150?img=3" alt="Admin Profile" class="profile-picture" />
+          <h1>Hello world</h1>
         </div>
       </router-link>
     </div>
@@ -20,6 +21,7 @@
   color: #2c3e50;
   font-weight: bold;
 }
+
 .Router {
   margin-top: 70px;
   display: flex;
