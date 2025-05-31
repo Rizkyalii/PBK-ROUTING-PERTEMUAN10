@@ -7,7 +7,6 @@
       <router-link to="/profile">
         <div class="profile-header">
           <img src="https://i.pravatar.cc/150?img=3" alt="Admin Profile" class="profile-picture" />
-          <h1>Hello world</h1>
         </div>
       </router-link>
     </div>
