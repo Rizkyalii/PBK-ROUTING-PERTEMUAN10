@@ -44,7 +44,7 @@
 <script setup>
 import { ref } from 'vue'
 import BarChart from '/src/components/BarChart.vue'
-import DashboardProduksi from '/src/components/DashboardProduksi.vue'
+import DashboardProduksi from '/src/components/DashBoardProduksi.vue'
 
 const chartData = ref({
   labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun'],
