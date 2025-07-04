@@ -13,8 +13,8 @@ export const useItemsStore = defineStore('items', {
       JumlahBarang: null,
       BeratBarang: null,
       HargaBarang: null,
-      protein: null,
-      sodium: null
+      TanggalProduksi:'',
+      TanggalKadaluarsa: ''
     },
     editId: null
   }),
@@ -80,8 +80,8 @@ async saveItem() {
         JumlahBarang: null,
         BeratBarang: null,
         HargaBarang: null,
-        protein: null,
-        sodium: null
+        TanggalProduksi: null,
+        TanggalKadaluarsa: null
       }
       this.editId = null
     }
