@@ -5,7 +5,6 @@
    <!-- <router-view /> -->
 </template>
 <script setup>
-  // import Login from './components/Login.vue'
 import Navbar from './components/Main.vue'
 // import { RouterView } from 'vue-router'
 </script>

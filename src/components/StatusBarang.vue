@@ -1,7 +1,8 @@
 <template>
   <q-page padding class="q-pa-lg bg-grey-1">
     <div class="column items-center">
-      <q-card class="q-pa-md q-mb-lg shadow-6 rounded-borders" style="width: 100%; max-width: 600px;">
+      <q-card class="q-pa-md q-mb-lg shadow-6 rounded-borders" style="width: 100%; max-width: 1500px; border: 2px solid rgb(51, 112, 255)
+;" >
         <q-card-section>
           <div class="text-h5 text-weight-bold text-primary q-mb-md text-center">
             <q-icon name="inventory_2" class="q-mr-sm" />Kelola Barang
@@ -37,7 +38,7 @@
         </q-card-section>
       </q-card>
 
-      <q-card class="q-mb-md shadow-6 rounded-borders" style="width: 100%; max-width: 1000px;">
+      <q-card class="q-mb-md shadow-6 rounded-borders" style="width: 100%; max-width: 1500px;">
         <q-card-section class="q-pa-none">
           <q-markup-table separator="horizontal" flat bordered class="rounded-borders">
             <thead>

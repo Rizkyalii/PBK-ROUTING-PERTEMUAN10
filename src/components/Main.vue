@@ -66,14 +66,14 @@
 
       <q-img
         class="absolute-top"
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEbQgB8wWk0G20s8ZwZzW_ZJiB_Ost-0TAG9tR9hs5A7QWDzZJNLLLDm7wSNyMZeHSVipboI-CtZ1hhS0RGPm4mKGUYbIhyV1zqhYDDg2EBDxqiE-dx9R7TY1sXr99IKkVzFATi1B3R4eKz2UfQav9-zWoY-o1UUGgQPNcnYhFYZD7-X4clR_tuF-n3g/s16000/STOCK%20OPNAME.jpg"
+        src="https://www.srinsofttech.com/images/corporate/srinsoft-overview.jpg"
         style="height: 150px"
       >
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
             <img
               src="https://artikel.rumah123.com/wp-content/uploads/sites/41/2023/09/12160753/gambar-foto-profil-whatsapp-kosong.jpg"
-            />
+            style="border: 2px solid rgb(51, 112, 255);"/>
           </q-avatar>
           <div class="text-weight-bold">Admin</div>
         </div>
@@ -106,9 +106,9 @@ const currentRouteTitle = computed(() => {
     case "Inbox":
       return "Pesan Masuk";
     case "Settings":
-      return "Pengaturan";
-    case "Login":
-      return "Masuk Akun";
+      return "Pengaturan";return "Masuk Akun";
+    case "Setting":
+      return "Profile ";
     default:
       return "Aplikasi Saya";
   }

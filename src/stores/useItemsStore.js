@@ -2,9 +2,7 @@
 import { defineStore } from 'pinia'
 import axios from 'axios'
 
-// const API_URL = 'http://localhost:3000/items'
-const API_URL = 'https://my-json-server.render.com/items'
-
+const API_URL = 'http://localhost:3000/items'
 
 export const useItemsStore = defineStore('items', {
   state: () => ({

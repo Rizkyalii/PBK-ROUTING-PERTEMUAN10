@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-md dashboard-produk">
-    <div class="text-h4 text-weight-bold text-blue-grey-9 q-mb-lg">
+    <div class="text-h4 text-weight-bold text-secondary q-mb-lg">
       Dashboard Produksi Barang
     </div>
 
@@ -66,7 +66,9 @@ const chartData = ref({
     {
       label: 'Jumlah Produksi',
       data: [1000, 1200, 950, 1300, 1100, 1700],
-      backgroundColor: '#607d8b' // blue-grey
+
+
+      backgroundColor: 'rgb(51, 112, 255)' // blue-grey
     }
   ]
 })

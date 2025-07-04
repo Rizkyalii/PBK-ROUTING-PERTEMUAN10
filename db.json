@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": "96fa",
+      "name": "ali"
+    },
+    {
+      "id": "4e73",
+      "name": "muklis"
+    },
+    {
+      "id": "04c1",
+      "name": "supri"
+    },
+    {
+      "id": "c9d1",
+      "name": "asa"
+    },
+    {
+      "id": "ddc4",
+      "name": "dsad"
+    },
+    {
+      "id": "5a9e",
+      "name": "sdsadsd"
+    }
+  ],
+  "items": [
+    {
+      "id": "fea9",
+      "name": "dsads",
+      "JumlahBarang": 3434,
+      "BeratBarang": 4343,
+      "HargaBarang": 15000,
+      "protein": 34434,
+      "sodium": 323
+    },
+    {
+      "id": "7d2c",
+      "name": "1212",
+      "JumlahBarang": 121,
+      "BeratBarang": 212,
+      "HargaBarang": 211111,
+      "protein": 221,
+      "sodium": 121
+    }
+  ],
+  "mails": [
+    {
+      "id": "1",
+      "sender": "ceo@perusahaanbesar.com",
+      "subject": "Rapat Tahunan",
+      "body": "Seluruh divisi diharapkan hadir dalam rapat tahunan.",
+      "type": "bos",
+      "date": "2025-06-20"
+    },
+    {
+      "id": "2",
+      "sender": "hrd@startuptech.id",
+      "subject": "Lowongan Kerja Baru",
+      "body": "Kami membuka lowongan untuk posisi Frontend Developer.",
+      "type": "perusahaan",
+      "date": "2025-06-21"
+    },
+    {
+      "id": "3",
+      "sender": "agus@perusahaankita.com",
+      "subject": "Laporan Bulanan",
+      "body": "Laporan bulan ini telah dikirim ke email direktur.",
+      "type": "karyawan",
+      "date": "2025-06-22"
+    },
+    {
+      "id": "4",
+      "sender": "partner@distributormaju.com",
+      "subject": "Permintaan Kolaborasi Stock Opname",
+      "body": "Kami ingin mengusulkan kolaborasi dalam kegiatan stock opname akhir bulan ini agar data persediaan lebih sinkron antara gudang pusat dan cabang. Mohon balasan segera.",
+      "type": "perusahaan",
+      "date": "2025-06-23"
+    },
+    {
+      "id": "5",
+      "sender": "logistik@mitrakargo.co.id",
+      "subject": "Permintaan Audit Bersama Stock Barang",
+      "body": "Kami ingin menjadwalkan audit bersama terkait stock opname barang transit. Mohon ditentukan waktu yang sesuai untuk tim kami dan tim Anda.",
+      "type": "perusahaan",
+      "date": "2025-06-24"
+    },
+    {
+      "id": "6",
+      "sender": "supplychain@ptglobalinventory.com",
+      "subject": "Kerja Sama Proyek Stock Opname Tahunan",
+      "body": "Kami tertarik untuk menjalin kerja sama terkait proyek stock opname tahunan. Apakah perusahaan Anda terbuka untuk kolaborasi ini?",
+      "type": "perusahaan",
+      "date": "2025-06-25"
+    },
+    {
+      "id": "7",
+      "sender": "operation@tokodistributor.id",
+      "subject": "Kolaborasi Stock Opname untuk Gudang Regional",
+      "body": "Kami dari TokoDistributor ingin menjalin kolaborasi untuk kegiatan stock opname gudang regional agar data distribusi lebih akurat dan sinkron.",
+      "type": "brand",
+      "date": "2025-06-25"
+    },
+    {
+      "id": "8",
+      "sender": "partner@inventrack.co",
+      "subject": "Penawaran Kerja Sama Sistem Opname",
+      "body": "Inventrack siap membantu Anda dalam pelaksanaan stock opname secara digital dengan integrasi sistem kami. Mari bahas lebih lanjut kemungkinan kerja sama.",
+      "type": "brand",
+      "date": "2025-06-26"
+    },
+    {
+      "id": "9",
+      "sender": "logistik@faststock.asia",
+      "subject": "Permintaan Jadwal Kolaboratif Stock Opname",
+      "body": "Kami ingin menjadwalkan stock opname bersama di gudang konsinyasi kami bulan depan. Mohon dijadwalkan meeting teknis.",
+      "type": "brand",
+      "date": "2025-06-28"
+    }
+  ]
+}
