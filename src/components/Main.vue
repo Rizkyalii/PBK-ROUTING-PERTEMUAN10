@@ -105,8 +105,8 @@ const currentRouteTitle = computed(() => {
       return "Informasi Barang";
     case "Inbox":
       return "Pesan Masuk";
-    case "Settings":
-      return "Pengaturan";return "Masuk Akun";
+    case "Mail":
+      return "Email Masuk";
     case "Setting":
       return "Profile ";
     default:
