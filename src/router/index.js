@@ -1,6 +1,6 @@
 // router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
-import Staff from '../components/Staff.vue'
+import User from '../components/User.vue'
 import StatusBarang from '../components/StatusBarang.vue'
 import Home2 from '../components/Home.vue'
 import Inbox from '../components/Inbox.vue'
@@ -9,7 +9,7 @@ import Mail from '../components/Mail.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home2 },
-  { path: '/Staff', name: 'Staff', component: Staff },
+  { path: '/User', name: 'User', component: User },
   { path: '/StatusBarang', name: 'StatusBarang', component: StatusBarang },
   { path: '/Inbox', name: 'Inbox', component: Inbox },
   { path: '/Settings', name: 'Setting', component: Settings},

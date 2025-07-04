@@ -34,7 +34,7 @@
             <q-item-section> Status Barang </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/Staff">
+          <q-item clickable v-ripple to="/User">
             <q-item-section avatar>
               <q-icon name="person_add" />
             </q-item-section>
@@ -99,8 +99,8 @@ const currentRouteTitle = computed(() => {
   switch (route.name) {
     case "Home":
       return "Halaman Utama";
-    case "Staff":
-      return "Data Staff";
+    case "User":
+      return "Data User";
     case "StatusBarang":
       return "Informasi Barang";
     case "Inbox":
