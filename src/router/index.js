@@ -1,4 +1,3 @@
-// router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import User from '../components/User.vue'
 import StatusBarang from '../components/StatusBarang.vue'

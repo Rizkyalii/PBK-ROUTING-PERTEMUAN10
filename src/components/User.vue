@@ -178,29 +178,26 @@ onMounted(() => {
   padding-bottom: 50px;
 }
 
-/* Header */
 .header-title {
   padding-bottom: 20px;
   text-align: center;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Card Styles */
 .form-card,
 .user-list-card {
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
 }
 
 .form-card {
-  background-color: #ffffff; /* Pure white for clean look */
+  background-color: #ffffff;
 }
 
 .user-list-card {
-  background-color: #f8f9fa; /* Slightly off-white for contrast */
+  background-color: #f8f9fa;
 }
 
-/* Input Field */
 .q-input {
   transition: all 0.3s ease;
 }
@@ -209,7 +206,6 @@ onMounted(() => {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons */
 .button-action {
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
@@ -233,18 +229,17 @@ onMounted(() => {
   background-color: #f0f0f0;
 }
 
-/* User List Item */
 .user-item {
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1); /* Quasar's standard ease */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1); 
   border: 1px solid #e0e0e0;
   cursor: pointer;
-  box-sizing: border-box; /* Ensures padding/border doesn't add to total width */
+  box-sizing: border-box; 
 }
 
 .user-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  border-color: #a7d9f7; /* Subtle hover border */
+  border-color: #a7d9f7; 
 }
 
 .user-item-transition-enter-active {
@@ -252,14 +247,13 @@ onMounted(() => {
 }
 .user-item-transition-leave-active {
   animation: flipLeft 0.6s cubic-bezier(0.25, 0.8, 0.5, 1) reverse;
-  position: absolute; /* Allows items to animate out without affecting others */
+  position: absolute;
   width: 100%;
 }
 .user-item-transition-move {
   transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
 }
 
-/* Action Buttons within List Item */
 .button-edit,
 .button-delete {
   transition: transform 0.2s ease-in-out;
@@ -270,37 +264,35 @@ onMounted(() => {
   transform: scale(1.1);
 }
 
-/* No Users Message */
 .no-users-message {
   font-style: italic;
   padding-top: 15px;
 }
 
 .list-header {
-  padding-bottom: 10px; /* Sedikit padding di bawah header */
-  position: relative; /* Diperlukan untuk q-separator kustom jika ingin efek tertentu */
+  padding-bottom: 10px; 
+  position: relative; 
 }
 
 .list-header .text-h6 {
-  font-size: 1.4rem; /* Sedikit lebih besar dari default h6 */
-  letter-spacing: 0.5px; /* Memberi sedikit jarak antar huruf */
-  color: #333; /* Warna teks yang lebih gelap untuk kontras */
+  font-size: 1.4rem;
+  letter-spacing: 0.5px; 
+  color: #333; 
 }
 
 .list-header .text-subtitle2 {
   font-size: 0.9rem;
-  color: #757575; /* Warna abu-abu yang lebih lembut */
-  margin-top: 4px; /* Sedikit jarak dari judul utama */
+  color: #757575;
+  margin-top: 4px; 
 }
 
 .header-separator {
-  background-color: #e0e0e0; /* Warna abu-abu terang untuk garis */
-  height: 1px; /* Ketebalan garis */
-  width: 100%; /* Lebar garis */
-  margin-top: 15px; /* Jarak dari teks di atasnya */
+  background-color: #e0e0e0;
+  height: 1px; 
+  width: 100%; 
+  margin-top: 15px; 
 }
 
-/* Keyframe Animations */
 @keyframes flipRight {
   from {
     transform: rotateY(-90deg) scale(0.9);

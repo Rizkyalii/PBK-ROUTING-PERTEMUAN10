@@ -36,10 +36,10 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useMailStore } from '/src/stores/useMailStore'
-import { useRouter } from 'vue-router' // Menggunakan useRouter untuk navigasi
+import { useRouter } from 'vue-router' 
 
 const mailStore = useMailStore()
-const router = useRouter() // Inisialisasi router
+const router = useRouter() 
 
 function formatDate(dateStr) {
   const options = { year: 'numeric', month: 'short', day: 'numeric' }
@@ -47,10 +47,7 @@ function formatDate(dateStr) {
 }
 
 function openMail(mail) {
-  // Contoh: Navigasi ke halaman detail email
-  // Anda mungkin perlu menyesuaikan rute ini
   console.log('Membuka email:', mail.subject);
-  // router.push(`/mail/${mail.id}`);
 }
 
 onMounted(() => {
@@ -59,12 +56,9 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Anda bisa menambahkan atau menimpa gaya Quasar di sini jika diperlukan */
 .border-radius-sm {
-  border-radius: 8px; /* Sudut sedikit membulat */
+  border-radius: 8px;
 }
-
-/* Jika Anda ingin sedikit lebih banyak kontrol pada ellipsis */
 .ellipsis-2-lines {
   display: -webkit-box;
   -webkit-line-clamp: 2;

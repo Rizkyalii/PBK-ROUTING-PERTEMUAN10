@@ -1,4 +1,3 @@
-// src/stores/useItemsStore.js
 import { defineStore } from 'pinia'
 import axios from 'axios'
 
@@ -57,13 +56,11 @@ async saveItem() {
 
   await axios.delete(`${API_URL}/${id}`)
   
-  // Tambahkan ke inbox
   this.inbox.unshift({
     message: `Barang "${item.name}" berhasil dihapus.`,
     timestamp: new Date()
   })
 
-  // Segarkan data dan reset form jika perlu
   await this.fetchItems()
   if (this.editId === id) this.resetForm()
 },

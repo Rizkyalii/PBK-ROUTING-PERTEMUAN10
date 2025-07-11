@@ -167,14 +167,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Anda dapat menambahkan gaya kustom di sini jika diperlukan */
-/* Misalnya untuk memastikan rounded-borders bekerja pada q-markup-table */
 .rounded-borders {
-  border-radius: 8px; /* Contoh radius sudut */
+  border-radius: 8px; 
 }
-
-/* Menimpa gaya default untuk header tabel jika diperlukan, tapi Quasar biasanya sudah cukup baik */
-/* .q-markup-table th {
-  font-weight: bold;
-} */
 </style>

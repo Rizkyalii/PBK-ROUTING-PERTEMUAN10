@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "id": "96fa",
-      "name": "ali"
-    },
-    {
       "id": "4e73",
       "name": "muklis"
     },
@@ -25,33 +21,19 @@
       "name": "sdsadsd"
     },
     {
-      "id": "9bff",
-      "name": "saipul"
+      "name": "saipulll",
+      "id": "9bff"
     },
     {
       "id": "ab62",
       "name": "samsul"
+    },
+    {
+      "id": "603b",
+      "name": "ali"
     }
   ],
   "items": [
-    {
-      "id": "fea9",
-      "name": "dsads",
-      "JumlahBarang": 3434,
-      "BeratBarang": 4343,
-      "HargaBarang": 15000,
-      "protein": 34434,
-      "sodium": 323
-    },
-    {
-      "id": "7d2c",
-      "name": "1212",
-      "JumlahBarang": 121,
-      "BeratBarang": 212,
-      "HargaBarang": 211111,
-      "protein": 221,
-      "sodium": 121
-    },
     {
       "id": "4cef",
       "name": "sadsad",
@@ -60,6 +42,15 @@
       "HargaBarang": 32,
       "TanggalProduksi": "2025-07-02",
       "TanggalKadaluarsa": "2025-07-17"
+    },
+    {
+      "id": "38c8",
+      "name": "beras",
+      "JumlahBarang": 1212,
+      "BeratBarang": 10000,
+      "HargaBarang": 10000,
+      "TanggalProduksi": "2025-07-03",
+      "TanggalKadaluarsa": "2025-07-11"
     }
   ],
   "mails": [
